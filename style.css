@@ -113,8 +113,10 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 2rem;
+    margin-top: 30px;
     /* background-color: yellowgreen; */
+    margin-left: 6rem;
+    margin-right: 6rem;
 }
 
 .doneBefore {
@@ -125,14 +127,18 @@ body {
     
 }
 
+.doneBefore > h2 {
+    margin-top: 50px;
+}
+
 .part {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 2rem;
     text-align: center;
-    justify-content: center;
-    /* background-color: aqua; */
+    /* background-color: rgb(46, 174, 174); */
+    justify-content:center;
+    margin-top: -20px;
 }
 
 .showRoom {
